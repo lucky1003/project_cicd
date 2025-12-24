@@ -1,0 +1,4 @@
+materialID,parent_MMID,material,quantity,vendor
+550e8400-e29b-41d4-a716-446655440000,1,Steel Rod,100,VendorA
+550e8400-e29b-41d4-a716-446655440001,1,Rubber,50,VendorB
+550e8400-e29b-41d4-a716-446655440002,2,Copper Wire,200,VendorC

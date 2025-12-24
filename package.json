@@ -1,0 +1,42 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "CAP Project",
+  "private": true,
+  "scripts": {
+    "start": "cds run",
+    "watch": "cds watch",
+    "build": "cds build",
+    "deploy": "cds deploy"
+  },
+  "dependencies": {
+    "@sap/cds": "^9.6.0",
+    "@sap/xssec": "^4",
+    "express": "^4",
+    "sqlite3": "^5.1.7",
+    "@cap-js/sqlite": "^2"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9.5.0"
+  },
+  "cds": {
+    "requires": {
+      "auth": {
+        "[development]": {
+          "kind": "mocked"
+        },
+        "[production]": {
+          "kind": "xsuaa"
+        }
+      },
+      "db": {
+        "[development]": {
+          "kind": "sqlite"
+        },
+        "[production]": {
+          "kind": "hana"
+        }
+      }
+    }
+  }
+}

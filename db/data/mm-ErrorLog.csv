@@ -1,0 +1,3 @@
+entityID,entityName,errorCode,errorMessage,severity
+1001,ManufactureMaterial,E001,Invalid status,High
+1002,RawMaterial,E002,Quantity cannot be zero,Medium

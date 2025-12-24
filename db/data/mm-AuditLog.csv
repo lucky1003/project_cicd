@@ -1,0 +1,3 @@
+AuditID,entityName,entityID,action,oldValue,newValue,error_entityID
+1,ManufactureMaterial,1001,UPDATE,Inactive,Active,1001
+2,RawMaterial,1002,INSERT,NULL,50,1002
